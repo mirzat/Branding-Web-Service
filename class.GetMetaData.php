@@ -1,12 +1,12 @@
 <?php
 
-/****************************************************************************
-*																			*
-* 	This is the Controller Class. This passes the request to the model	and	*
+/********************************************************************************
+*										*									*
+* 	This is the Controller Class. This passes the request to the model and	*
 *	obtains the metadata associated with the URL. Finally it passses the 	*
-*	metadata array to the view class which sends back the JSON object.		*													
-*																			*
-****************************************************************************/
+*	metadata array to the view class which sends back the JSON object.	*														
+*										*									*
+********************************************************************************/
 
 class GetMetaData{
 	
