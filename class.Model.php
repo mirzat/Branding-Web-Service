@@ -1,12 +1,12 @@
 <?php
 
-/****************************************************************************
- *																			*
-* 	This is the Model Class. This passes the request to the model and		*
+/********************************************************************************
+*										*
+* 	This is the Model Class. This passes the request to the model and	*
 *	obtains the metadata associated with the URL. Finally it passes the 	*
-*	metadata array to the view class which sends back the JSON object.		*
-*																			*
-****************************************************************************/
+*	metadata array to the view class which sends back the JSON object.	*
+*										*
+********************************************************************************/
 
 
 class Model
