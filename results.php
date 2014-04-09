@@ -19,6 +19,16 @@ function __autoload($className){
 }
 	
 
-$send = new GetMetaData($_GET['url']);			
+// When web service is called or user enters non-empty data
+if(isset($_GET['url']) && $_GET['url'] != ''){
+	// Create a new instance of GetMetaData (Controller)
+	$send = new GetMetaData($_GET['url']);			
+}
+
+// Else send error (bad request) 
+else{
+	header('HTTP/1.1 400 Bad Request');
+	echo '<h2>Please enter a valid URL.<h2>';
+}
 
 ?>
