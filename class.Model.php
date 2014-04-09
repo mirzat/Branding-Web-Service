@@ -2,9 +2,9 @@
 
 /********************************************************************************
 *										*
-* 	This is the Model Class. This passes the request to the model and	*
-*	obtains the metadata associated with the URL. Finally it passes the 	*
-*	metadata array to the view class which sends back the JSON object.	*
+* 	This is the Model Class. It gets the url from the controller, connetcs	*
+*	to the database and obtains the metadata. It then sends back the array 	*
+*	to the controller. 							*
 *										*
 ********************************************************************************/
 
