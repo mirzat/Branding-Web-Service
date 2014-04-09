@@ -1,12 +1,11 @@
 <?php
 
 
-/****************************************************************************
-*																			*
-* 	A simple "branding" web service endpoint using REST. Obtains URl and 	*
-*	returns	key value pairs in JSON.										*
-*																			*
-****************************************************************************/
+/********************************************************************************																			*
+* 	A simple "branding" web service endpoint using REST. Obtains URl and    *
+*	returns	key value pairs in JSON.					*
+*										*
+********************************************************************************/
 
 // Report all errors
 ERROR_REPORTING(E_ALL);
