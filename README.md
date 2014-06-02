@@ -24,6 +24,6 @@ Here are some sample data that is currently on the database:
 ('Washington University in St. Louis', 'http://wustl.edu/assets/css/images/logo-wustl-index.jpg', 'http://wustl.edu/'),
 ('University of California, Berkeley', 'http://www.berkeley.edu/img/sections/berkeley-text-brand.gif', 'http://www.berkeley.edu/index.html');
 
-So to search for University of California, Berkeley you can type any part of this URL "http://www.berkeley.edu/index.html"
+For example to search for University of California, Berkeley you can type any part of this URL "http://www.berkeley.edu/index.html"
 
 Tashfique Mirza
